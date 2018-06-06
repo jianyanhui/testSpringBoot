@@ -1,0 +1,7 @@
+https://blog.csdn.net/shuangde800/article/details/10132825
+
+Contex（上下文）：是一个类，它可以拥有一些内部状态。
+
+State接口：定义了一个所有具体状态的共同接口；任何状态都实现这个相同的接口，这样一来，状态之间可以互相替换
+
+ConcreteState(具体状态): 处理来自Context的请求.每个ConcreteState都提供了它自己对于请求的实现.所以,当Context改变状态时行为也跟着改变
